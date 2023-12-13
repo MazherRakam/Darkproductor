@@ -14,33 +14,47 @@
 .todoxd{
     display: flex;
 }
-.a{
+.Home{
     display: flex;
     border-radius: 10pt;
     padding: 10pt;
+    margin: 5pt;
     background-color: #262A40;
 }
 
 .Biblioteca{
     display: flex;
     border-radius: 10pt;
-    padding: 10pt ;
+    margin: 5pt;
+    padding: 10pt 10pt 300pt ;
     background-color: #262A40;
 }
 .Principal{
     display: flex;
     border-radius: 10pt;
+    margin: 5pt;
     background-color: #262A40;
+    padding: 10pt 100pt 300pt;
 }
 .Principal .canciones{
     background-color: #262A40;
 }
+.Principal .canciones img{
+    height: 40pt;
+}
 .PanelDerecho{
     background-color: #262A40;
+    border-radius: 10pt;
+    margin: 5pt;
+    padding: 10pt 10pt 300pt;
 }
 .ItemsIzquierdos{
     background-color: #262A40;
 }
 .PanelInferior{
     background-color: #262A40;
+    border-radius: 10pt;
+    margin: 5pt;
+    padding: 10pt;
+    
 }

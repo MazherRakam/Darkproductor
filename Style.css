@@ -4,11 +4,43 @@
     color: #f2f2f2;
     text-decoration: none;
     text-shadow: none;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     outline: none;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
+.todoxd{
+    display: flex;
+}
+.a{
+    display: flex;
+    border-radius: 10pt;
+    padding: 10pt;
+    background-color: #262A40;
+}
 
+.Biblioteca{
+    display: flex;
+    border-radius: 10pt;
+    padding: 10pt ;
+    background-color: #262A40;
+}
+.Principal{
+    display: flex;
+    border-radius: 10pt;
+    background-color: #262A40;
+}
+.Principal .canciones{
+    background-color: #262A40;
+}
+.PanelDerecho{
+    background-color: #262A40;
+}
+.ItemsIzquierdos{
+    background-color: #262A40;
+}
+.PanelInferior{
+    background-color: #262A40;
+}

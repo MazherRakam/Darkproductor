@@ -12,81 +12,78 @@
     <link rel="stylesheet" href="/Style.css">
 </head>
 <body>
-    <main class="todoxd">
-        <section class="pavexd">
+    <main class="main">
+
+        <section class="Inicio">
             <!-- Home y Search y Bilioteca -->
-            <section class="Inicio">
-                <ul class="Home">
-                    <li class="list">
-                        <img src="/Home.png" alt="Imagen Home">
-                        <button>
-                            Home
-                        </button>
-                    </li>
-                    <li>
-                        <img src="/Search.png" alt="Imagen Search">
-                        <button>
-                            Buscar
-                        </button> 
-                    </li>
-                </ul>
-                <div class="Biblioteca">
-                    <h2>Biblioteca</h2>
-                    <img src="/Biblioteca.png" alt="">
-                </div>
-            </section>
-            
-            <!-- Principal -->
-            <section class="Principal">
-                <div>
-                    <img src="/Perfil.png" alt="Foto de Perfil">
-                </div>
-                <div>
-                    <ul>
-                        <li class="canciones" id="Tracklist">
-                            <!-- <h2>${song.title}</h2>
-                            <p>${song.album}</p>
-                            <p>${song.author}</p>
-                            <img class="FotoAlbum" src="${song.path.front}" alt="Imagenalbum"> -->
-                        </li>
-                    </ul>
-
-
-                    <h2>Hecho para ti</h2>
-                    <img src="/album1.png" alt="Album1">
-                    <img src="/album2.png" alt="Album2">
-                    <img src="/album3.png" alt="Album3">
-                    <img src="/album4.png" alt="Album4">
-                </div>
-            </section>
-            <!-- Panel Derecho -->
-            <section class="PanelDerecho">
-                <img src="/Puntos.png" alt="Puntos">
-                <img id="currentsongalbum2" src="" alt="Disco Grande">
-                <!-- Titulo Panel Derecho -->
-                <div>
-                    <h4 id="currentsongtitle2">Titulo</h4>
-                    <p id="currentsongauthor2">Author</p>
-                </div>
-            </section>
-        </section>
-        
-        
-        <!-- Panel Inferior -->
-        <section class="PanelInferior">
-            <!-- Items izquierdos -->
-            <div class="ItemsIzquierdos">
-                <img id="currentsongalbum" src="" alt="Disco Pequeño">
+            <ul class="Home">
+                <li class="list">
+                    <img src="/Home.png" alt="Imagen Home">
+                    <button>
+                        Home
+                    </button>
+                </li>
+                <li>
+                    <img src="/Search.png" alt="Imagen Search">
+                    <button>
+                        Buscar
+                    </button> 
+                </li>
+            </ul>
+            <div class="Biblioteca">
+                <h2>Biblioteca</h2>
+                <img src="/Biblioteca.png" alt="">
             </div>
-            <!-- Barra de reproduccion -->
+        </section>
+
+        <!-- Principal -->
+        <section class="Principal">
+            <!-- <div>
+                <img src="/Perfil.png" alt="Foto de Perfil">
+            </div> -->
+            <ul class="tracklist" id="Tracklist">
+                <!-- <li class="canciones">
+                    <h2>${song.title}</h2>
+                    <p>${song.album}</p>
+                    <p>${song.author}</p>
+                    <img class="FotoAlbum" src="${song.path.front}" alt="Imagenalbum">
+                </li> -->
+            </ul>
+            <!-- <div>
+                <h2>Hecho para ti</h2>
+                <img src="/album1.png" alt="Album1">
+                <img src="/album2.png" alt="Album2">
+                <img src="/album3.png" alt="Album3">
+                <img src="/album4.png" alt="Album4">
+            </div> -->
+        </section>
+
+        <!-- Panel Derecho -->
+        <section class="PanelDerecho">
+            <img src="/Puntos.png" alt="Puntos">
+            <img id="currentsongalbum2" src="" alt="Disco Grande">
+            Titulo Panel Derecho
             <div>
-                <h4 id="currentsongtitle">Titulo</h4>
-                <p id="currentsongauthor">Author</p>
+                <h4 id="currentsongtitle2">Titulo</h4>
+                <p id="currentsongauthor2">Author</p>
             </div>
-            <audio id="currentsongaudio" src="" controls autoplay></audio>
-            <img src="/Puntos1.png" alt="Puntos">
         </section>
+        
     </main>    
+    <!-- Panel Inferior -->
+    <footer class="footer">
+        <!-- Items izquierdos -->
+        <div class="footer__img">
+            <img id="currentsongalbum" src="/album1.png" alt="Disco Pequeño">
+        </div>
+        <!-- Barra de reproduccion -->
+        <div class="footer__info">
+            <h4 id="currentsongtitle">Titulo</h4>
+            <p id="currentsongauthor">Author</p>
+        </div>
+        <audio id="currentsongaudio" src="" controls autoplay></audio>
+        <!-- <img src="/Puntos1.png" alt="Puntos"> -->
+    </footer>
     <script src="/script.js"></script>
 </body>
 </html>

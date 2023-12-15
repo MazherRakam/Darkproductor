@@ -26,6 +26,7 @@ body {
     padding: 10pt;
     margin: 5pt;
     background-color: #262A40;
+    height: 16%;
 }
 .Home .list{
     background-color: #262A40;
@@ -38,6 +39,7 @@ body {
     display: flex;
     border-radius: 10pt;
     margin: 5pt;
+    height: 81%;
 
     /* Bro, 300pt es mucho padding  */
     /* padding: 10pt 10pt 300pt ; */
@@ -50,6 +52,7 @@ body {
 .Biblioteca img{
     background-color: #262A40;
     margin-right: 5pt;
+    height: 24pt;
 }
 
 .Principal{
@@ -69,8 +72,14 @@ body {
     height: 100%;
     overflow-y: auto;
 }
-.Principal .canciones{
+.tracklist img{
+    height: 100%;
+    border-radius: 10pt;
+    
+}
+.Principal .Tracklist{
     background-color: #262A40;
+    padding: 10pt;
 }
 .Principal .canciones img{
     height: 40pt;
@@ -105,14 +114,17 @@ footer.footer {
     margin: 5pt;
 }
 footer.footer .footer__img {
-    height: 120px;
+    height: 100px;
+    background-color:#262A40;
+    padding-right: 8pt;
 }
 footer.footer .footer__img img {
     height: 100%;
     object-fit: cover;
 }
 audio{
-    background-color:#262A40
+    background-color:#262A40;
+    padding-left: 8pt;
 }
 h4{
     background-color: #262A40;

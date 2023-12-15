@@ -27,6 +27,9 @@ body {
     margin: 5pt;
     background-color: #262A40;
 }
+.Home .list{
+    background-color: #262A40;
+}
 .Home img{
     background-color: #262A40;
 }
@@ -43,6 +46,10 @@ body {
 
 
     background-color: #262A40;
+}
+.Biblioteca img{
+    background-color: #262A40;
+    margin-right: 5pt;
 }
 
 .Principal{
@@ -79,7 +86,10 @@ body {
     /* padding: 10pt 10pt 300pt ; */
     padding: 10pt;
 }
-
+.Album{
+    border-radius: 10pt;
+    background-color: #262A40;
+}
 
 footer.footer {
     display: flex;
